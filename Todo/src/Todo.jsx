@@ -7,7 +7,7 @@ import "./Todo.css";
 const Todo = () => {
   const [tasks, setTasks] = useState([]);
  
- console.log(task);
+ console.log(tasks);
  
   useEffect(() => {
    document.title = `You have ${tasks.length} pending task(s)`;
